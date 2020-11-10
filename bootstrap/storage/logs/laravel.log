@@ -1,0 +1,22 @@
+[2020-10-25 18:25:26] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#1 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#2 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(237): Illuminate\\Log\\LogManager->error()
+#4 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#6 /home/mkxv/Documentos/Carrera/l00per/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2020-10-25 18:25:26] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/mkxv/Documentos/Carrera/l00per/vendor/symfony/finder/Finder.php:589)
+[stacktrace]
+#0 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/mkxv/Documentos/Carrera/l00per/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 /home/mkxv/Documentos/Carrera/l00per/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
